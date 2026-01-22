@@ -4,7 +4,7 @@ A centralized **portfolio hub** showcasing multiple **production-minded AI appli
 
 This repository serves as a **single entry point** to explore my applied AI projects - each designed, implemented, and deployed end-to-end.
 
-[Website Link](link)
+[Website Link](https://ai-systems-samyak-jain.streamlit.app/)
 
 ---
 
