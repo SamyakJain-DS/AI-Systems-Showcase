@@ -1,4 +1,4 @@
-# 🚀 AI Apps Showcase
+# 🚀 AI Systems Showcase
 
 A centralized **portfolio hub** showcasing multiple **production-minded AI applications** built using modern GenAI techniques such as multimodal reasoning, agentic workflows, and real-time tool integration.
 
