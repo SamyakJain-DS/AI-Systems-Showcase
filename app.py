@@ -77,7 +77,7 @@ apps = [
             "emphasis on real-world utility, evaluation, and system design. Stay tuned."
         ),
         "tags": ["Coming Soon", "Advanced Reasoning", "Applied AI"],
-        "link": "#"
+        "link": "https://ai-youtube-video-rag-samyak-jain.streamlit.app/"
     }
 ]
 
