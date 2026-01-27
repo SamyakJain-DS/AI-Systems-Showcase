@@ -41,7 +41,9 @@ body {
 """, unsafe_allow_html=True)
 
 st.title("🚀 AI Systems Showcase")
-st.caption("A curated collection of applied GenAI products - built end-to-end, deployed, and production-minded.")
+st.caption(
+    "A curated collection of applied GenAI systems — built end-to-end, deployed, and engineered with production constraints in mind."
+)
 
 st.divider()
 
@@ -50,38 +52,29 @@ apps = [
         "title": "🎨 AI Story Generator",
         "description": (
             "A multimodal generative storytelling system that transforms user-uploaded images into "
-            "coherent, genre-aware short stories. The app intelligently evaluates user intent, grounds "
-            "the narrative in visual context using Gemini Vision, and produces expressive voice narration "
-            "using a local neural TTS pipeline. Designed with robustness, state management, and deployment "
-            "constraints in mind."
+            "coherent, genre-aware short stories using Groq-hosted multimodal LLMs. "
+            "The system evaluates user intent, grounds narratives in visual context, and produces "
+            "expressive audio narration via a fully offline neural TTS pipeline. "
+            "Designed with careful state management, robustness, and free-tier deployment constraints."
         ),
-        "tags": ["Multimodal", "Gemini Vision", "Prompt Evaluation", "Neural TTS", "Streamlit"],
+        "tags": ["Multimodal", "Groq", "Vision-Language", "Prompt Evaluation", "Offline Neural TTS"],
         "link": "https://ai-story-generator-samyak.streamlit.app/"
     },
     {
         "title": "🧠 AI Daily Briefing Agent",
         "description": (
-            "An agentic AI assistant that reasons over real-time tools to generate a fully actionable daily plan. "
-            "It dynamically retrieves live weather data, top news headlines, and verified local events, then "
-            "synthesizes them into a structured, time-aware schedule. Built with strict constraints to avoid "
-            "hallucinations, vague recommendations, or fabricated venues - prioritizing correctness over fluff."
+            "An agentic AI assistant that reasons over real-time tools to generate a complete, "
+            "actionable daily plan. Powered by Groq (LLaMA 3.3 70B) and LangChain Agents, "
+            "it dynamically retrieves live weather, recent news, and verified local events, "
+            "then synthesizes them into a structured schedule while strictly avoiding hallucinations "
+            "or vague recommendations."
         ),
-        "tags": ["Agentic AI", "Tool Use", "LangChain", "Real-time APIs", "Planning"],
+        "tags": ["Agentic AI", "Groq", "LangChain Agents", "Tool Use", "Real-time APIs"],
         "link": "https://ai-assistant-samyak-jain.streamlit.app/"
-    },
-    {
-        "title": "🔮 Upcoming AI Project",
-        "description": (
-            "A forthcoming AI application exploring deeper reasoning, personalization, or automation. "
-            "This project will continue the theme of building production-ready GenAI systems with a strong "
-            "emphasis on real-world utility, evaluation, and system design. Stay tuned."
-        ),
-        "tags": ["Coming Soon", "Advanced Reasoning", "Applied AI"],
-        "link": "https://ai-youtube-video-rag-samyak-jain.streamlit.app/"
     }
 ]
 
-cols = st.columns(3)
+cols = st.columns(2)
 
 for col, app in zip(cols, apps):
     with col:
@@ -95,14 +88,17 @@ for col, app in zip(cols, apps):
         st.markdown("<br>", unsafe_allow_html=True)
 
         st.markdown(f"<p>{app['description']}</p>", unsafe_allow_html=True)
-        st.markdown(f"🔗 <a href='{app['link']}' target='_blank'>View App</a>", unsafe_allow_html=True)
-
+        st.markdown(
+            f"🔗 <a href='{app['link']}' target='_blank'>View App</a>",
+            unsafe_allow_html=True
+        )
 
 st.divider()
 
 st.markdown(
-    "**About the developer**  \n"
-    "I design and build applied AI systems that go beyond demos - focusing on grounding, evaluation, "
-    "tool-augmented reasoning, and deployment-ready engineering. These projects reflect my interest in "
-    "production-grade Data Science, GenAI, multimodal systems, and agentic workflows."
+    "About the developer  \n"
+    "I design and build applied AI systems that go beyond demos — focusing on grounding, "
+    "agentic reasoning, multimodal understanding, and deployment-ready engineering. "
+    "These projects reflect my interest in production-grade Data Science, Generative AI, "
+    "and real-world system design."
 )

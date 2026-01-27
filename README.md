@@ -70,5 +70,3 @@ GitHub: [https://github.com/SamyakJain-DS](https://github.com/SamyakJain-DS)
 
 This repository is intentionally structured as a portfolio showcase, not a single-use application.
 Each linked project demonstrates a different dimension of applied AI system design - from multimodal generation to agent-based reasoning.
-
-More applications will be added over time.
