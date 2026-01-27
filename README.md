@@ -39,11 +39,6 @@ Agentic AI · Tool Use · LangChain Agents · Real-time APIs · Planning & Reaso
 
 ---
 
-### 🔮 Upcoming AI Project
-An additional AI application currently in development, focused on deeper reasoning, personalization, or automation. This project will continue the emphasis on **production-ready GenAI systems** and real-world applicability.
-
----
-
 ## 🗂️ Project Structure
 
 ```text
@@ -52,6 +47,7 @@ AI_Apps_Showcase/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
+```
 
 ## 🧩 Tech Stack
 
