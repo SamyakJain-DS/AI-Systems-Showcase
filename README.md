@@ -23,16 +23,18 @@ It highlights:
 
 ## 🧠 Featured Applications
 
-### 🎨 AI Story Generator
+### 🎨 [AI Story Generator](https://github.com/SamyakJain-DS/AI-Story-Generator)
 A multimodal generative storytelling system that converts user-uploaded images into genre-aware short stories, grounded in visual context using Gemini Vision. Includes prompt evaluation, state-safe Streamlit UI, and expressive voice narration via a local neural TTS pipeline.
+[Documentation](https://github.com/SamyakJain-DS/AI-Story-Generator)
 
 **Key concepts:**  
 Multimodal AI · Vision-Language Models · Prompt Evaluation · Neural TTS · Streamlit Deployment
 
 ---
 
-### 🧠 AI Daily Briefing Agent
+### 🧠 [AI Daily Briefing Agent](https://github.com/SamyakJain-DS/AI-Assistant)
 An agentic AI assistant that dynamically reasons over real-time tools to produce a complete, actionable daily plan. It retrieves live weather data, recent news, and verified local events, then synthesizes them into a structured schedule while strictly avoiding hallucinated or vague recommendations.
+[Documentation](https://github.com/SamyakJain-DS/AI-Assistant)
 
 **Key concepts:**  
 Agentic AI · Tool Use · LangChain Agents · Real-time APIs · Planning & Reasoning
